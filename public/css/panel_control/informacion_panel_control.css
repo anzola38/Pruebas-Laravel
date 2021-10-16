@@ -1,0 +1,33 @@
+table {
+    margin-left: 20px;
+    width: 95%;
+}
+th {
+    width: 25%;
+    text-align: center;
+    background-color: #d9dbe0;
+}
+
+.contenedor-paginacion {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #b4b4b4;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d9dbe0;
+}
+
+.eliminar {
+    color: white;
+    background-color: #c15c55;
+}
+
+.modificar {
+    color: white;
+    background-color: #f2ae2f;
+}
